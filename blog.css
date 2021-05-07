@@ -36,8 +36,38 @@ a{
     text-decoration: none;
     color: rgba(255,255,255,0.7);
 }
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    margin-top: 3em;
+    margin-left: 2em;
+    display: flex;
+    justify-content: center;
+    color: rgba(255,255,255,.7);
+    flex-grow: 1;
+}
 .card{
-    font-size:20em;
+    margin-top: 2em;
+    flex-grow: 15;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style-type:none;
+}
+.blogimg{
+    max-width: 40em;
+}
+.cardwrapper{
+    display:flex;
+    flex-direction: column;
+}
+.info{
+    border: 1px solid white;
+    background-color: white;
+    max-width: 40em;
 }
 
 @media screen and (max-width: 1024px){
@@ -51,5 +81,21 @@ a{
     }
     .topwrapper h2{
         font-size: 1em;
+    }
+    .sidebar{
+        font-size: 0.8em;
+        margin-left: 1.3em;
+    }
+    .blogimg{
+        max-width: 15em;
+    }
+    .info{
+        max-width: 15em;
+    }
+    .info h3{
+        font-size: 1.2em;
+    }
+    .info p{
+        font-size: 0.8em;
     }
 }
