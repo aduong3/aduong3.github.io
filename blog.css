@@ -14,6 +14,10 @@ body{
     border: 1px solid transparent;
     background-color: rgba(0,0,0,0.5);
 }
+.blog{
+    display: flex;
+    flex-direction: column;
+}
 .topbar{
     border: 1px solid transparent;
     background-color: rgba(41, 40, 40, 0.9);
@@ -70,7 +74,7 @@ ul{
     max-width: 40em;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 750px){
     .socials img{
         max-height: 1.3em;
         margin: 0em 0.3em 0em 0.3em;
