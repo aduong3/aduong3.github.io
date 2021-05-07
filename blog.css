@@ -8,3 +8,37 @@ html{
     background-position: fixed;
     background-repeat: no-repeat;
 }
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+}
+.topbar{
+    border: 1px solid transparent;
+    background-color: rgba(41, 40, 40, 0.9);
+}
+.topwrapper{
+    display: flex;
+    flex-direction: row;
+    color: rgba(255,255,255,0.7);
+    justify-content: space-evenly;
+}
+.socials img{
+    max-height: 2em;
+    margin: 0em 0.3em 0em 0.3em;
+}
+.socials a{
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+}
+@media screen and (max-width: 1024px){
+    .socials img{
+        max-height: 1.3em;
+        margin: 0em 0.3em 0em 0.3em;
+    }
+}
