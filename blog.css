@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 html{
-    background-image: url('background.jpg');
-    background-position: fixed;
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 body{
     min-width: 100vw;
@@ -36,6 +36,10 @@ a{
     text-decoration: none;
     color: rgba(255,255,255,0.7);
 }
+.card{
+    font-size:20em;
+}
+
 @media screen and (max-width: 1024px){
     .socials img{
         max-height: 1.3em;
